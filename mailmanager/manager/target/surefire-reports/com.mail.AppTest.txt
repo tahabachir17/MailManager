@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.mail.AppTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.528 s <<< FAILURE! - in com.mail.AppTest
+testMailReceiving(com.mail.AppTest)  Time elapsed: 0.284 s  <<< FAILURE!
+java.lang.AssertionError: Email receiving failed: failed to connect, no password specified?
+	at com.mail.AppTest.testMailReceiving(AppTest.java:50)
+
+testMailSending(com.mail.AppTest)  Time elapsed: 0.062 s  <<< FAILURE!
+java.lang.AssertionError: Email sending failed: Cannot invoke "String.length()" because "s" is null
+	at com.mail.AppTest.testMailSending(AppTest.java:35)
+
